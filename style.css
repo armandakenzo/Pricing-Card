@@ -1,0 +1,68 @@
+body {
+   background-image: url(fancy-cushion.png);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+h1 {
+   text-align: center;
+   color: white;
+   margin-bottom: -20px;
+}
+
+section {
+   display: flex;
+   margin-top: 50px;
+   justify-content: space-around;
+}
+
+header {
+   background-color: cyan;
+   width: 100px;
+   margin-left: 50px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 18px;
+   padding-bottom: 13px;
+   margin-top: -14px;
+   border-radius: 20px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+div {
+   background-color: white;
+   width: 220px;
+   height: 320px;
+   overflow: hidden;
+   border-radius: 5px;
+   text-align: center;
+}
+
+p {
+   color: darkolivegreen;
+   font-size: 18px;
+}
+
+ul {
+   list-style: none;
+   margin-left: -50px;
+   margin-bottom: 40px;
+}
+
+li {
+   padding-bottom: 4px;
+}
+
+a {
+   text-decoration: none;
+   color: cyan;
+   border: 1px solid cyan;
+   border-radius: 20px;
+   padding: 10px 20px;
+   transition: .3s;
+}
+
+a:hover {
+   color: white;
+   background-color: cyan;
+}
